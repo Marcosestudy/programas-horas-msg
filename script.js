@@ -10,9 +10,7 @@ function carregar(){
   var msg = document.getElementById("msg");
   var img = document.getElementById("imagem");
   var data = new Date()
-  //var hora = data.getHours()
-  var hora = 10
-  
+  var hora = data.getHours()
   msg.innerHTML = ` Agora são ${hora} horas `;
   //msg.innerHTML = 'te amo'
 
@@ -21,7 +19,11 @@ function carregar(){
     document.body.style.background = "#fbfaac";
     document.getElementById("fcor").style.color = "#000000";
     hcor.style.color = "#000000"
-    mensagem.innerHTML = "Bom dia, minha princesa. Você é a razão pela qual me levanto mais feliz a cada manhã! 💘"
+    mensagem.innerHTML = 'Um novo dia é sinônimo de esperança. Que Deus te acompanhe neste dia abençoado e que Ele te guie em todos os momentos de hoje.'
+    
+    
+
+
     fonte.style.fontFamily = "var(--font3)";
     fonte.style.lineHeight = '30px'
    
@@ -49,7 +51,7 @@ function carregar(){
     img.src = 'imagem/noite.png'
     document.body.style.background = "#22363D";
      mensagem.innerHTML =
-     "Boa Noite, Minha Lindeza!<br><br>Maravilhoso mesmo é amanhecer cheio da presença de Deus, pois sabemos que muitas lutas iremos enfrentar neste dia, mas, o nosso Deus nos fará vencer tudo na vida!";
+     "Boa Noite!<br><br>Maravilhoso mesmo é amanhecer cheio da presença de Deus, pois sabemos que muitas lutas iremos enfrentar neste dia, mas, o nosso Deus nos fará vencer tudo na vida!";
      //document.getElementById("fonte").style.fontFamily ="var(--font1)";
      fonte.style.fontFamily = "var(--font1)";
 
