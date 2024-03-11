@@ -11,7 +11,10 @@ function carregar(){
   var img = document.getElementById("imagem");
   var data = new Date()
   var hora = data.getHours()
-  msg.innerHTML = ` Agora são ${hora} horas `;
+  var minutos = data.getMinutes()
+  var segundos = data.getSeconds()
+  var horas = [hora,minutos,segundos].join(":")
+  msg.innerHTML = ` Agora são: ${horas} horas `;
   //msg.innerHTML = 'te amo'
 
   if(hora >= 0  && hora < 12){
